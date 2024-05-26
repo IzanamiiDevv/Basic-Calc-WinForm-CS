@@ -34,7 +34,7 @@ class Script
 {
     public static string Calculate(string x, string y, int op)
     {
-        string[] opertaros = {"add","sub","mul","divd","mod"};
+        string[] opertaros = {"add","sub","mul","div","mod"};
         try
         {
             return Exec($"calc -x {x} -y {y} -op {opertaros[op]}");
